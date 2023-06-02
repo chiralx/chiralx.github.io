@@ -1,0 +1,427 @@
+body{
+    text-align: center;    
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+
+}
+
+#header{
+    height: 130px;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #ccc;
+    border-top: 5px solid #356288;
+}
+
+.center{
+    width: 75%;
+    margin: 0px auto;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+#photo{
+    width: 30%;
+    font-size: 30px;
+    float: left;
+    margin-top: 35px;
+}
+
+#photo img{
+    display: block;
+    float: left;
+    height: 100px;
+    margin-top: -18px;
+    margin-right: 5px;
+}
+
+#name{
+    display: block;
+    margin: 10px;
+    float: left;
+    color: #37375e;
+}
+
+#menu{
+    width: 70%;
+    float: right;
+    font-size: 18px;
+}
+
+#menu ul{
+    line-height: 85px;
+    width: 60%;
+    float: right;
+}
+
+#menu ul li{
+    display: inline-block;
+    list-style: none;
+    height: 46px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+#menu ul a{
+    text-decoration: none;
+    color: #37375e;
+    transition: 300ms all;
+}
+
+#menu ul a:hover{
+    color: #356288;
+  
+}
+
+#slider {
+    width: 100%;
+    height: 350px;
+    /*line-height: 320px;*/
+    color: rgb(236, 232, 232);
+    text-shadow: 0px 0px 5px #444;
+    background: rgb(254,17,0);
+    background: linear-gradient(90deg, rgba(254,17,0,1) 4%, rgba(53,98,136,1) 94%);
+}
+
+#slider h1 {
+    margin-top: 0px;
+    padding: 0px;
+    padding-top: 138px;
+    text-align: center;
+}
+
+.btn-white {
+    display: block;
+    background: white;
+    color: #37375e;
+    padding: 10px;
+    width: 95px;
+    height: 32px;
+    margin: 0px auto;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-shadow: none;
+    text-decoration: none;
+    line-height: 35px;
+    box-shadow: 0px 0px 5px #444;
+    margin-top: 40px;
+    border-radius: 4px;
+    transition: 300ms all;
+}
+
+.btn-white:hover {
+    background: #aacfdd;
+    color: white;
+}
+
+#slider.slider-small{
+    height: 170px;
+}
+
+#slider.slider-small h1{
+    margin-top: 0px;
+    padding: 0px;
+    padding-top: 65px;
+}
+
+#content{
+    width: 100%;
+    float: left;
+    min-height: 150px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#education{
+    width: 65%;
+    float: left;
+    min-height: 150px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+#profile p{
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 7px;
+}
+
+.btn{
+    display: block;
+    background: #37375e;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    max-width: 120px;
+    transition: 300ms all;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-success{
+    background: #356288;
+}
+
+.btn-success:hover{
+    background: #37375e;
+}
+
+.mid-form{
+    width: 45%;
+    margin: 0px auto;
+}
+
+.mid-form label{
+    display: block;
+    float: left;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+input[type='text'],
+textarea{
+    width: 100%;
+    min-height: 30px;
+    border: 1px solid #aacfdd;
+    padding: 3px;
+    margin-bottom: 5px;
+    transition: 300ms all;
+}
+
+input[type='text']:focus,
+textarea:focus{
+    box-shadow: 0px 0px 5px #aacfdd inset;
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 150px;
+    max-height: 300px;
+}
+
+#footer{
+    background: #aacfdd;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    color: #356288;
+}
+
+.subheader{
+     font-size: 40px;
+     border-bottom: 2px solid #aacfdd;
+     color: #356288;
+     padding: 20px;
+}
+
+.title{
+    font-size: 25px;
+    color: #356288;
+    padding: 5px;
+}
+
+.li-edu{
+    display: inline-block;
+    list-style: none;
+    padding: auto;
+    height: 60px;
+}
+
+.li-edu a{
+    text-decoration: none;
+    color: #356288;
+    transition: 300ms all;
+}
+
+.list1{
+    align-items: center;
+    font-size: large;
+    height: 60px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.list2{
+    align-items: center;
+    font-size: large;
+    height: 60px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+#nametitle{
+    display: block;
+    float: left;
+}
+
+.article-item{
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.article-item .date{
+    display: block;
+    width: 100%;
+    color: #356288;
+}
+
+.image-wrap img{
+    display: inline;
+    width: 512px;
+    height: 512px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.image-barra img{
+    display: inline;
+    width: 520px;
+    height: 520px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.experience-li li{
+    display: inline-block;
+    list-style: none;
+    height: 46px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.experience-li ul{
+    line-height: 85px;
+    width: 60%;
+    float: right;
+}
+
+
+#sidebar{
+    width: 30%;
+    float: right;
+}
+
+.sidebar-item{
+    background: #f7f7f7;
+    padding: 40px;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+.sidebar-item h3{
+    color: #356288;
+    font-size: 25px;
+    margin: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #aacfdd;
+}
+
+.sidebar-item p{
+    text-align: center;
+}
+
+.sidebar-item .btn{
+    margin: 0px auto;
+    margin-top: 7px;
+}
+
+.btn-success{
+    background: #356288;
+}
+
+.btn-success:hover{
+    background: #aacfdd;
+}
+
+.icon img{
+    display: inline;
+    width: 25px;
+    height: 25px;
+    float: left;
+    text-align: center;
+}
+
+.icon li{
+    list-style: none;
+    text-align: right;
+}
+
+
+#datacontact{
+    text-align: right;
+}
+
+
+
+
+/*RESPONSIVE*/
+
+@media (max-width: 1382px){
+    .center{
+        width: 85%;
+    }
+}
+
+@media (max-width: 1215px){
+    .center{
+        width: 95%;
+    }
+
+    #menu ul{
+        width: auto;
+    }
+}
+
+@media (max-width: 500){
+    #logo{
+        float: none;
+        width: 240px;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+
+    #menu, 
+    #menu ul{
+        clear: both;
+        float: none;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        line-height: 43px;
+    }
+
+    #content{
+        float: none;
+        width: 100%;
+    }
+
+    #sidebar{
+        float: none;
+        width: 60%;
+        margin: 0px auto;
+        margin-bottom: 50px;
+    }
+}
